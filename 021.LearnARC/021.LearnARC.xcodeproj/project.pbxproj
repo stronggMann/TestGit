@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		211B00DE232230F300681B4B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211B00DD232230F300681B4B /* AssetsLibrary.framework */; };
+		211B00E22322337E00681B4B /* OneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B00E02322337E00681B4B /* OneVC.m */; };
+		211B00E32322337E00681B4B /* OneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 211B00E12322337E00681B4B /* OneVC.xib */; };
+		211B00E72322339A00681B4B /* TwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B00E52322339A00681B4B /* TwoVC.m */; };
+		211B00E82322339A00681B4B /* TwoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 211B00E62322339A00681B4B /* TwoVC.xib */; };
+		211B00EC23223E2800681B4B /* WFSelectPhotoItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B00EA23223E2800681B4B /* WFSelectPhotoItemCell.m */; };
+		211B00ED23223E2800681B4B /* WFSelectPhotoItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 211B00EB23223E2800681B4B /* WFSelectPhotoItemCell.xib */; };
+		21938E0A2326452600236EE3 /* WFSelectPhotoBrowserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 21938E082326452600236EE3 /* WFSelectPhotoBrowserVC.m */; };
+		21938E0B2326452600236EE3 /* WFSelectPhotoBrowserVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21938E092326452600236EE3 /* WFSelectPhotoBrowserVC.xib */; };
+		21DF4C65232201B400BABAD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DF4C64232201B400BABAD3 /* AppDelegate.m */; };
+		21DF4C68232201B400BABAD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DF4C67232201B400BABAD3 /* ViewController.m */; };
+		21DF4C6B232201B400BABAD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21DF4C69232201B400BABAD3 /* Main.storyboard */; };
+		21DF4C6E232201B400BABAD3 /* _21_LearnARC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21DF4C6C232201B400BABAD3 /* _21_LearnARC.xcdatamodeld */; };
+		21DF4C70232201BE00BABAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21DF4C6F232201BE00BABAD3 /* Assets.xcassets */; };
+		21DF4C73232201BE00BABAD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21DF4C71232201BE00BABAD3 /* LaunchScreen.storyboard */; };
+		21DF4C76232201BE00BABAD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DF4C75232201BE00BABAD3 /* main.m */; };
+		21DF4C80232201BE00BABAD3 /* _21_LearnARCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DF4C7F232201BE00BABAD3 /* _21_LearnARCTests.m */; };
+		21DF4C8B232201BE00BABAD3 /* _21_LearnARCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DF4C8A232201BE00BABAD3 /* _21_LearnARCUITests.m */; };
+		3D7BBA0DDD17262EF72B48C6 /* libPods-021.LearnARC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B1BFC7A2EB390FA544BF44 /* libPods-021.LearnARC.a */; };
+		6B2846E3F4854F92D03BE249 /* libPods-021.LearnARCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64053E2AE4DEC65EA67A4409 /* libPods-021.LearnARCTests.a */; };
+		B19EAF4993AAAF21202D33FA /* libPods-021.LearnARCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0F766CC75BBD7B3DAFD047 /* libPods-021.LearnARCUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21DF4C7C232201BE00BABAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21DF4C58232201B400BABAD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DF4C5F232201B400BABAD3;
+			remoteInfo = 021.LearnARC;
+		};
+		21DF4C87232201BE00BABAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21DF4C58232201B400BABAD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DF4C5F232201B400BABAD3;
+			remoteInfo = 021.LearnARC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1534261620B5FF8587232F12 /* Pods-021.LearnARC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-021.LearnARC.release.xcconfig"; path = "Target Support Files/Pods-021.LearnARC/Pods-021.LearnARC.release.xcconfig"; sourceTree = "<group>"; };
+		211B00DD232230F300681B4B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		211B00DF2322337E00681B4B /* OneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneVC.h; sourceTree = "<group>"; };
+		211B00E02322337E00681B4B /* OneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneVC.m; sourceTree = "<group>"; };
+		211B00E12322337E00681B4B /* OneVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneVC.xib; sourceTree = "<group>"; };
+		211B00E42322339A00681B4B /* TwoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoVC.h; sourceTree = "<group>"; };
+		211B00E52322339A00681B4B /* TwoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoVC.m; sourceTree = "<group>"; };
+		211B00E62322339A00681B4B /* TwoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoVC.xib; sourceTree = "<group>"; };
+		211B00E923223E2800681B4B /* WFSelectPhotoItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFSelectPhotoItemCell.h; sourceTree = "<group>"; };
+		211B00EA23223E2800681B4B /* WFSelectPhotoItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFSelectPhotoItemCell.m; sourceTree = "<group>"; };
+		211B00EB23223E2800681B4B /* WFSelectPhotoItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WFSelectPhotoItemCell.xib; sourceTree = "<group>"; };
+		21938E072326452600236EE3 /* WFSelectPhotoBrowserVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFSelectPhotoBrowserVC.h; sourceTree = "<group>"; };
+		21938E082326452600236EE3 /* WFSelectPhotoBrowserVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFSelectPhotoBrowserVC.m; sourceTree = "<group>"; };
+		21938E092326452600236EE3 /* WFSelectPhotoBrowserVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WFSelectPhotoBrowserVC.xib; sourceTree = "<group>"; };
+		21DF4C60232201B400BABAD3 /* 021.LearnARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 021.LearnARC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DF4C63232201B400BABAD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21DF4C64232201B400BABAD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21DF4C66232201B400BABAD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21DF4C67232201B400BABAD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21DF4C6A232201B400BABAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21DF4C6D232201B400BABAD3 /* _21_LearnARC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _21_LearnARC.xcdatamodel; sourceTree = "<group>"; };
+		21DF4C6F232201BE00BABAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21DF4C72232201BE00BABAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21DF4C74232201BE00BABAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21DF4C75232201BE00BABAD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21DF4C7B232201BE00BABAD3 /* 021.LearnARCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 021.LearnARCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DF4C7F232201BE00BABAD3 /* _21_LearnARCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _21_LearnARCTests.m; sourceTree = "<group>"; };
+		21DF4C81232201BE00BABAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21DF4C86232201BE00BABAD3 /* 021.LearnARCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 021.LearnARCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DF4C8A232201BE00BABAD3 /* _21_LearnARCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _21_LearnARCUITests.m; sourceTree = "<group>"; };
+		21DF4C8C232201BE00BABAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A75FDEF8B3C43308CD32F1 /* Pods-021.LearnARCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-021.LearnARCTests.release.xcconfig"; path = "Target Support Files/Pods-021.LearnARCTests/Pods-021.LearnARCTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A0F766CC75BBD7B3DAFD047 /* libPods-021.LearnARCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-021.LearnARCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64053E2AE4DEC65EA67A4409 /* libPods-021.LearnARCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-021.LearnARCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76379ABCA017DEB845E308C1 /* Pods-021.LearnARCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-021.LearnARCUITests.release.xcconfig"; path = "Target Support Files/Pods-021.LearnARCUITests/Pods-021.LearnARCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78B1BFC7A2EB390FA544BF44 /* libPods-021.LearnARC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-021.LearnARC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B524153F5EAD30BF39CBCA12 /* Pods-021.LearnARCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-021.LearnARCTests.debug.xcconfig"; path = "Target Support Files/Pods-021.LearnARCTests/Pods-021.LearnARCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E229DA603D744344711AF1A5 /* Pods-021.LearnARC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-021.LearnARC.debug.xcconfig"; path = "Target Support Files/Pods-021.LearnARC/Pods-021.LearnARC.debug.xcconfig"; sourceTree = "<group>"; };
+		E6F122C8F65E3B64453CDFEF /* Pods-021.LearnARCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-021.LearnARCUITests.debug.xcconfig"; path = "Target Support Files/Pods-021.LearnARCUITests/Pods-021.LearnARCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21DF4C5D232201B400BABAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B00DE232230F300681B4B /* AssetsLibrary.framework in Frameworks */,
+				3D7BBA0DDD17262EF72B48C6 /* libPods-021.LearnARC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DF4C78232201BE00BABAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2846E3F4854F92D03BE249 /* libPods-021.LearnARCTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DF4C83232201BE00BABAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19EAF4993AAAF21202D33FA /* libPods-021.LearnARCUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21DF4C57232201B400BABAD3 = {
+			isa = PBXGroup;
+			children = (
+				21DF4C62232201B400BABAD3 /* 021.LearnARC */,
+				21DF4C7E232201BE00BABAD3 /* 021.LearnARCTests */,
+				21DF4C89232201BE00BABAD3 /* 021.LearnARCUITests */,
+				21DF4C61232201B400BABAD3 /* Products */,
+				F0F982298F2F7A8FB3DE3D82 /* Pods */,
+				CD4514BCB08131B31D0AA788 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21DF4C61232201B400BABAD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21DF4C60232201B400BABAD3 /* 021.LearnARC.app */,
+				21DF4C7B232201BE00BABAD3 /* 021.LearnARCTests.xctest */,
+				21DF4C86232201BE00BABAD3 /* 021.LearnARCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21DF4C62232201B400BABAD3 /* 021.LearnARC */ = {
+			isa = PBXGroup;
+			children = (
+				21DF4C63232201B400BABAD3 /* AppDelegate.h */,
+				21DF4C64232201B400BABAD3 /* AppDelegate.m */,
+				21DF4C66232201B400BABAD3 /* ViewController.h */,
+				21DF4C67232201B400BABAD3 /* ViewController.m */,
+				21DF4C69232201B400BABAD3 /* Main.storyboard */,
+				21DF4C6F232201BE00BABAD3 /* Assets.xcassets */,
+				21DF4C71232201BE00BABAD3 /* LaunchScreen.storyboard */,
+				21DF4C74232201BE00BABAD3 /* Info.plist */,
+				21DF4C75232201BE00BABAD3 /* main.m */,
+				21DF4C6C232201B400BABAD3 /* _21_LearnARC.xcdatamodeld */,
+				211B00DF2322337E00681B4B /* OneVC.h */,
+				211B00E02322337E00681B4B /* OneVC.m */,
+				211B00E12322337E00681B4B /* OneVC.xib */,
+				211B00E42322339A00681B4B /* TwoVC.h */,
+				211B00E52322339A00681B4B /* TwoVC.m */,
+				211B00E62322339A00681B4B /* TwoVC.xib */,
+				211B00E923223E2800681B4B /* WFSelectPhotoItemCell.h */,
+				211B00EA23223E2800681B4B /* WFSelectPhotoItemCell.m */,
+				211B00EB23223E2800681B4B /* WFSelectPhotoItemCell.xib */,
+				21938E072326452600236EE3 /* WFSelectPhotoBrowserVC.h */,
+				21938E082326452600236EE3 /* WFSelectPhotoBrowserVC.m */,
+				21938E092326452600236EE3 /* WFSelectPhotoBrowserVC.xib */,
+			);
+			path = 021.LearnARC;
+			sourceTree = "<group>";
+		};
+		21DF4C7E232201BE00BABAD3 /* 021.LearnARCTests */ = {
+			isa = PBXGroup;
+			children = (
+				21DF4C7F232201BE00BABAD3 /* _21_LearnARCTests.m */,
+				21DF4C81232201BE00BABAD3 /* Info.plist */,
+			);
+			path = 021.LearnARCTests;
+			sourceTree = "<group>";
+		};
+		21DF4C89232201BE00BABAD3 /* 021.LearnARCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21DF4C8A232201BE00BABAD3 /* _21_LearnARCUITests.m */,
+				21DF4C8C232201BE00BABAD3 /* Info.plist */,
+			);
+			path = 021.LearnARCUITests;
+			sourceTree = "<group>";
+		};
+		CD4514BCB08131B31D0AA788 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				211B00DD232230F300681B4B /* AssetsLibrary.framework */,
+				78B1BFC7A2EB390FA544BF44 /* libPods-021.LearnARC.a */,
+				64053E2AE4DEC65EA67A4409 /* libPods-021.LearnARCTests.a */,
+				5A0F766CC75BBD7B3DAFD047 /* libPods-021.LearnARCUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0F982298F2F7A8FB3DE3D82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E229DA603D744344711AF1A5 /* Pods-021.LearnARC.debug.xcconfig */,
+				1534261620B5FF8587232F12 /* Pods-021.LearnARC.release.xcconfig */,
+				B524153F5EAD30BF39CBCA12 /* Pods-021.LearnARCTests.debug.xcconfig */,
+				52A75FDEF8B3C43308CD32F1 /* Pods-021.LearnARCTests.release.xcconfig */,
+				E6F122C8F65E3B64453CDFEF /* Pods-021.LearnARCUITests.debug.xcconfig */,
+				76379ABCA017DEB845E308C1 /* Pods-021.LearnARCUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21DF4C5F232201B400BABAD3 /* 021.LearnARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DF4C8F232201BE00BABAD3 /* Build configuration list for PBXNativeTarget "021.LearnARC" */;
+			buildPhases = (
+				A5587BDFCE52CD28BFDAE378 /* [CP] Check Pods Manifest.lock */,
+				21DF4C5C232201B400BABAD3 /* Sources */,
+				21DF4C5D232201B400BABAD3 /* Frameworks */,
+				21DF4C5E232201B400BABAD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 021.LearnARC;
+			productName = 021.LearnARC;
+			productReference = 21DF4C60232201B400BABAD3 /* 021.LearnARC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21DF4C7A232201BE00BABAD3 /* 021.LearnARCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DF4C92232201BE00BABAD3 /* Build configuration list for PBXNativeTarget "021.LearnARCTests" */;
+			buildPhases = (
+				141E0EC5228AD18DE3FB506A /* [CP] Check Pods Manifest.lock */,
+				21DF4C77232201BE00BABAD3 /* Sources */,
+				21DF4C78232201BE00BABAD3 /* Frameworks */,
+				21DF4C79232201BE00BABAD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21DF4C7D232201BE00BABAD3 /* PBXTargetDependency */,
+			);
+			name = 021.LearnARCTests;
+			productName = 021.LearnARCTests;
+			productReference = 21DF4C7B232201BE00BABAD3 /* 021.LearnARCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21DF4C85232201BE00BABAD3 /* 021.LearnARCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DF4C95232201BE00BABAD3 /* Build configuration list for PBXNativeTarget "021.LearnARCUITests" */;
+			buildPhases = (
+				BBB1A6F268AF20725C97A359 /* [CP] Check Pods Manifest.lock */,
+				21DF4C82232201BE00BABAD3 /* Sources */,
+				21DF4C83232201BE00BABAD3 /* Frameworks */,
+				21DF4C84232201BE00BABAD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21DF4C88232201BE00BABAD3 /* PBXTargetDependency */,
+			);
+			name = 021.LearnARCUITests;
+			productName = 021.LearnARCUITests;
+			productReference = 21DF4C86232201BE00BABAD3 /* 021.LearnARCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21DF4C58232201B400BABAD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = com.rongke.1111;
+				TargetAttributes = {
+					21DF4C5F232201B400BABAD3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					21DF4C7A232201BE00BABAD3 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 21DF4C5F232201B400BABAD3;
+					};
+					21DF4C85232201BE00BABAD3 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 21DF4C5F232201B400BABAD3;
+					};
+				};
+			};
+			buildConfigurationList = 21DF4C5B232201B400BABAD3 /* Build configuration list for PBXProject "021.LearnARC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21DF4C57232201B400BABAD3;
+			productRefGroup = 21DF4C61232201B400BABAD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21DF4C5F232201B400BABAD3 /* 021.LearnARC */,
+				21DF4C7A232201BE00BABAD3 /* 021.LearnARCTests */,
+				21DF4C85232201BE00BABAD3 /* 021.LearnARCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21DF4C5E232201B400BABAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B00E82322339A00681B4B /* TwoVC.xib in Resources */,
+				21DF4C73232201BE00BABAD3 /* LaunchScreen.storyboard in Resources */,
+				211B00ED23223E2800681B4B /* WFSelectPhotoItemCell.xib in Resources */,
+				211B00E32322337E00681B4B /* OneVC.xib in Resources */,
+				21938E0B2326452600236EE3 /* WFSelectPhotoBrowserVC.xib in Resources */,
+				21DF4C70232201BE00BABAD3 /* Assets.xcassets in Resources */,
+				21DF4C6B232201B400BABAD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DF4C79232201BE00BABAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DF4C84232201BE00BABAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		141E0EC5228AD18DE3FB506A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-021.LearnARCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5587BDFCE52CD28BFDAE378 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-021.LearnARC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBB1A6F268AF20725C97A359 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-021.LearnARCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21DF4C5C232201B400BABAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B00EC23223E2800681B4B /* WFSelectPhotoItemCell.m in Sources */,
+				21DF4C6E232201B400BABAD3 /* _21_LearnARC.xcdatamodeld in Sources */,
+				211B00E22322337E00681B4B /* OneVC.m in Sources */,
+				21DF4C68232201B400BABAD3 /* ViewController.m in Sources */,
+				211B00E72322339A00681B4B /* TwoVC.m in Sources */,
+				21DF4C76232201BE00BABAD3 /* main.m in Sources */,
+				21DF4C65232201B400BABAD3 /* AppDelegate.m in Sources */,
+				21938E0A2326452600236EE3 /* WFSelectPhotoBrowserVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DF4C77232201BE00BABAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DF4C80232201BE00BABAD3 /* _21_LearnARCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DF4C82232201BE00BABAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DF4C8B232201BE00BABAD3 /* _21_LearnARCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21DF4C7D232201BE00BABAD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21DF4C5F232201B400BABAD3 /* 021.LearnARC */;
+			targetProxy = 21DF4C7C232201BE00BABAD3 /* PBXContainerItemProxy */;
+		};
+		21DF4C88232201BE00BABAD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21DF4C5F232201B400BABAD3 /* 021.LearnARC */;
+			targetProxy = 21DF4C87232201BE00BABAD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21DF4C69232201B400BABAD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21DF4C6A232201B400BABAD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21DF4C71232201BE00BABAD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21DF4C72232201BE00BABAD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21DF4C8D232201BE00BABAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21DF4C8E232201BE00BABAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21DF4C90232201BE00BABAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E229DA603D744344711AF1A5 /* Pods-021.LearnARC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N5VCQS2RN;
+				INFOPLIST_FILE = 021.LearnARC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rongke.111.-21-LearnARC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21DF4C91232201BE00BABAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1534261620B5FF8587232F12 /* Pods-021.LearnARC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N5VCQS2RN;
+				INFOPLIST_FILE = 021.LearnARC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rongke.111.-21-LearnARC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21DF4C93232201BE00BABAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B524153F5EAD30BF39CBCA12 /* Pods-021.LearnARCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N5VCQS2RN;
+				INFOPLIST_FILE = 021.LearnARCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rongke.111.-21-LearnARCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/021.LearnARC.app/021.LearnARC";
+			};
+			name = Debug;
+		};
+		21DF4C94232201BE00BABAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52A75FDEF8B3C43308CD32F1 /* Pods-021.LearnARCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N5VCQS2RN;
+				INFOPLIST_FILE = 021.LearnARCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rongke.111.-21-LearnARCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/021.LearnARC.app/021.LearnARC";
+			};
+			name = Release;
+		};
+		21DF4C96232201BE00BABAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F122C8F65E3B64453CDFEF /* Pods-021.LearnARCUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N5VCQS2RN;
+				INFOPLIST_FILE = 021.LearnARCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rongke.111.-21-LearnARCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 021.LearnARC;
+			};
+			name = Debug;
+		};
+		21DF4C97232201BE00BABAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76379ABCA017DEB845E308C1 /* Pods-021.LearnARCUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N5VCQS2RN;
+				INFOPLIST_FILE = 021.LearnARCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rongke.111.-21-LearnARCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 021.LearnARC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21DF4C5B232201B400BABAD3 /* Build configuration list for PBXProject "021.LearnARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DF4C8D232201BE00BABAD3 /* Debug */,
+				21DF4C8E232201BE00BABAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DF4C8F232201BE00BABAD3 /* Build configuration list for PBXNativeTarget "021.LearnARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DF4C90232201BE00BABAD3 /* Debug */,
+				21DF4C91232201BE00BABAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DF4C92232201BE00BABAD3 /* Build configuration list for PBXNativeTarget "021.LearnARCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DF4C93232201BE00BABAD3 /* Debug */,
+				21DF4C94232201BE00BABAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DF4C95232201BE00BABAD3 /* Build configuration list for PBXNativeTarget "021.LearnARCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DF4C96232201BE00BABAD3 /* Debug */,
+				21DF4C97232201BE00BABAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		21DF4C6C232201B400BABAD3 /* _21_LearnARC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				21DF4C6D232201B400BABAD3 /* _21_LearnARC.xcdatamodel */,
+			);
+			currentVersion = 21DF4C6D232201B400BABAD3 /* _21_LearnARC.xcdatamodel */;
+			path = _21_LearnARC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 21DF4C58232201B400BABAD3 /* Project object */;
+}
